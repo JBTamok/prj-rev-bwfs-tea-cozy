@@ -1,0 +1,170 @@
+/* universal styles */
+
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: seashell;
+}
+
+
+/* header */
+
+header {
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+header img  {
+    height: 50px;
+    padding-left: 10px;
+}
+
+
+nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+/* mission section */
+
+.main {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-image {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    width: 1200px; 
+    height: 700px;
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mission-text {
+    background-color: black;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+
+h2 {
+    padding: 0 0 20px 0;
+    margin: 0;    
+}
+
+
+h4 {
+    margin: 0;
+}
+
+/* teas section */
+
+.teas {
+    margin: auto;
+    padding-top: 70px;
+    width: 1000px;
+    height: 700px;
+    }
+
+.image-container {
+    margin: 20px; 0 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+.image img {
+    display: block;
+    height: 200px;
+    padding: 10px;
+}
+
+.image span {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* locations */
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.portland {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.locations h2 {
+    padding: 0;
+    margin: 50px 0 15px 0;
+}
+
+.area {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* footer */
+
+footer {
+    height: 200px;
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: left;
+    margin: 20px;
+}
+
+.phone, .copyright {
+    font-weight: bold;
+    font-size: 20px;
+}
